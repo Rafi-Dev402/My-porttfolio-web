@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* header style */
+.header-cls{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav style */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 230px 0 226px;
+}
+
+.nav-title{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+color: rgb(24, 24, 24);
+}
+
+/* R   decorate */
+.r-dec{
+    color: rgb(253, 110, 10);
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.dark2{
+    color: rgb(71, 71, 71);
+}
+
+.dark1{
+    color:rgb(24, 24, 24) ;
+}
+
+
+.btn{
+/* width: 140px;
+height: 60px; */
+font-size: 18px;
+background: rgb(253, 110, 10);
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+border-radius: 8px;
+font-weight: bolder;
+padding: 15px 35px;
+border: none;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 226px;
+}
+
+.banner-contant{
+    max-width: 580px ;
+}
+
+.banner-title{
+    
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+}
+
+.banner-name{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.about{
+    font-size: 18px;
+}
+
+.profilePic{
+    width: 580px;
+}
