@@ -133,6 +133,7 @@ main{
 }
 
 /* section 1 style */
+
 .about{
     background-color: rgb(255, 248, 243);
     border-radius: 10px;
@@ -178,15 +179,12 @@ main{
     margin-top: 5px;
 }
 
-/* 2nd Section Design */
 
+/* 2nd Section Design */
 
 .skills{
     margin-top: 130px;
-    
 }
-
-
 
 
 .doing-headding{
@@ -230,4 +228,59 @@ main{
     gap: 24px;
     margin-bottom: 130px;
 }
+
+
+/* 3rd cection design */
+.resume-title{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px
+    ;
+}
+
+.resume-column-title{
+    font-family: Open Sans;
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.exprience-title{
+    font-family: Open Sans;
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.exprience-sub-title{
+    font-family: Open Sans;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.exprience-description{
+    font-family: Open Sans;
+    color: rgb(117, 117, 117);
+    /* font-size: 16px;
+    font-weight: 400; */
+    margin-top: 20px;
+}
+.downlode-cv-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
 
