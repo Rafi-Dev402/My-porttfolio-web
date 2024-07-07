@@ -179,8 +179,55 @@ main{
 }
 
 /* 2nd Section Design */
+
+
 .skills{
     margin-top: 130px;
+    
+}
+
+
+
+
+.doing-headding{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
     text-align: center;
 } 
+
+.doing-details{
+    font-family: Open Sans;
+    text-align: center;
+    margin-bottom: 60px;
+    text-align: center;
+}   
+
+/* technology style    */
+.technology{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+}
+
+
+.tech-title{
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.tech-details{
+    font-family: Open Sans;
+    font-weight: 400;
+    
+}
+
+.technology-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
 
